@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>MainWindow</class>
- <widget class="QMainWindow" name="MainWindow">
+ <class>Calculator</class>
+ <widget class="QMainWindow" name="Calculator">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -29,7 +29,7 @@
    </size>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>Calculator</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <property name="sizePolicy">
@@ -289,16 +289,6 @@
     </layout>
    </widget>
   </widget>
-  <widget class="QMenuBar" name="menubar">
-   <property name="geometry">
-    <rect>
-     <x>0</x>
-     <y>0</y>
-     <width>500</width>
-     <height>22</height>
-    </rect>
-   </property>
-  </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
  <resources/>
@@ -306,7 +296,7 @@
   <connection>
    <sender>pushButton</sender>
    <signal>clicked()</signal>
-   <receiver>MainWindow</receiver>
+   <receiver>Calculator</receiver>
    <slot>add1()</slot>
    <hints>
     <hint type="sourcelabel">
@@ -322,7 +312,7 @@
   <connection>
    <sender>pushButton_3</sender>
    <signal>clicked()</signal>
-   <receiver>MainWindow</receiver>
+   <receiver>Calculator</receiver>
    <slot>add2()</slot>
    <hints>
     <hint type="sourcelabel">
@@ -338,7 +328,7 @@
   <connection>
    <sender>pushButton_5</sender>
    <signal>clicked()</signal>
-   <receiver>MainWindow</receiver>
+   <receiver>Calculator</receiver>
    <slot>add3()</slot>
    <hints>
     <hint type="sourcelabel">
@@ -354,7 +344,7 @@
   <connection>
    <sender>pushButton_7</sender>
    <signal>clicked()</signal>
-   <receiver>MainWindow</receiver>
+   <receiver>Calculator</receiver>
    <slot>add4()</slot>
    <hints>
     <hint type="sourcelabel">
@@ -370,7 +360,7 @@
   <connection>
    <sender>pushButton_9</sender>
    <signal>clicked()</signal>
-   <receiver>MainWindow</receiver>
+   <receiver>Calculator</receiver>
    <slot>add5()</slot>
    <hints>
     <hint type="sourcelabel">
@@ -386,7 +376,7 @@
   <connection>
    <sender>pushButton_10</sender>
    <signal>clicked()</signal>
-   <receiver>MainWindow</receiver>
+   <receiver>Calculator</receiver>
    <slot>add6()</slot>
    <hints>
     <hint type="sourcelabel">
@@ -402,7 +392,7 @@
   <connection>
    <sender>pushButton_8</sender>
    <signal>clicked()</signal>
-   <receiver>MainWindow</receiver>
+   <receiver>Calculator</receiver>
    <slot>add7()</slot>
    <hints>
     <hint type="sourcelabel">
@@ -418,7 +408,7 @@
   <connection>
    <sender>pushButton_6</sender>
    <signal>clicked()</signal>
-   <receiver>MainWindow</receiver>
+   <receiver>Calculator</receiver>
    <slot>add8()</slot>
    <hints>
     <hint type="sourcelabel">
@@ -434,7 +424,7 @@
   <connection>
    <sender>pushButton_4</sender>
    <signal>clicked()</signal>
-   <receiver>MainWindow</receiver>
+   <receiver>Calculator</receiver>
    <slot>add9()</slot>
    <hints>
     <hint type="sourcelabel">
@@ -450,7 +440,7 @@
   <connection>
    <sender>pushButton_15</sender>
    <signal>clicked()</signal>
-   <receiver>MainWindow</receiver>
+   <receiver>Calculator</receiver>
    <slot>clear()</slot>
    <hints>
     <hint type="sourcelabel">
@@ -466,7 +456,7 @@
   <connection>
    <sender>pushButton_2</sender>
    <signal>clicked()</signal>
-   <receiver>MainWindow</receiver>
+   <receiver>Calculator</receiver>
    <slot>add0()</slot>
    <hints>
     <hint type="sourcelabel">
@@ -482,7 +472,7 @@
   <connection>
    <sender>pushButton_16</sender>
    <signal>clicked()</signal>
-   <receiver>MainWindow</receiver>
+   <receiver>Calculator</receiver>
    <slot>equal()</slot>
    <hints>
     <hint type="sourcelabel">
@@ -498,7 +488,7 @@
   <connection>
    <sender>pushButton_13</sender>
    <signal>clicked()</signal>
-   <receiver>MainWindow</receiver>
+   <receiver>Calculator</receiver>
    <slot>plus()</slot>
    <hints>
     <hint type="sourcelabel">
@@ -514,7 +504,7 @@
   <connection>
    <sender>pushButton_12</sender>
    <signal>clicked()</signal>
-   <receiver>MainWindow</receiver>
+   <receiver>Calculator</receiver>
    <slot>mul()</slot>
    <hints>
     <hint type="sourcelabel">
@@ -530,7 +520,7 @@
   <connection>
    <sender>pushButton_11</sender>
    <signal>clicked()</signal>
-   <receiver>MainWindow</receiver>
+   <receiver>Calculator</receiver>
    <slot>minus()</slot>
    <hints>
     <hint type="sourcelabel">
@@ -546,7 +536,7 @@
   <connection>
    <sender>pushButton_14</sender>
    <signal>clicked()</signal>
-   <receiver>MainWindow</receiver>
+   <receiver>Calculator</receiver>
    <slot>div()</slot>
    <hints>
     <hint type="sourcelabel">
