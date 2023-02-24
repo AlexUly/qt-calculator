@@ -5,11 +5,11 @@ set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTORCC ON)
 set(CMAKE_AUTOUIC ON)
 
-set(CMAKE_PREFIX_PATH "F:/Torrent/5.15.2/mingw81_64/lib/cmake")
+set(CMAKE_PREFIX_PATH "C:/Qt/5.15.2/mingw81_64/lib/cmake")
 
 include_directories(${gtest_SOURCE_DIR}/include ${gtest_SOURCE_DIR})
 
-add_executable(calculator main.cpp callermain.cpp  ${MY_INCLUDE_DIR}/callermainwindow.h)
+add_executable(calculator main.cpp callermain.cpp  ${MY_INCLUDE_DIR}/callermainwindow.h caller.cpp)
 
 target_include_directories(calculator PUBLIC ${MY_INCLUDE_DIR})
 
